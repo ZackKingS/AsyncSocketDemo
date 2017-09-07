@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AAECB861F61133F0096107A /* in.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3AAECB851F61133F0096107A /* in.caf */; };
 		501C72303FE71CEE70EAFD65 /* libPods-AsyncSocketDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4425820434418819E7940FD /* libPods-AsyncSocketDemo.a */; };
 		E4F274051D756F6C00DF7BC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F274041D756F6C00DF7BC7 /* main.m */; };
 		E4F274081D756F6C00DF7BC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F274071D756F6C00DF7BC7 /* AppDelegate.m */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		38B55BB67AABB649A41176CF /* Pods-AsyncSocketDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsyncSocketDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AsyncSocketDemo/Pods-AsyncSocketDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3AAECB851F61133F0096107A /* in.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = in.caf; sourceTree = "<group>"; };
 		9E5B73E11EFF6CBD6597FEAA /* Pods-AsyncSocketDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsyncSocketDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AsyncSocketDemo/Pods-AsyncSocketDemo.release.xcconfig"; sourceTree = "<group>"; };
 		E4425820434418819E7940FD /* libPods-AsyncSocketDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AsyncSocketDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F274001D756F6C00DF7BC7 /* AsyncSocketDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsyncSocketDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +84,7 @@
 		E4F274021D756F6C00DF7BC7 /* AsyncSocketDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3AAECB851F61133F0096107A /* in.caf */,
 				E4F274061D756F6C00DF7BC7 /* AppDelegate.h */,
 				E4F274071D756F6C00DF7BC7 /* AppDelegate.m */,
 				E4F274091D756F6C00DF7BC7 /* ViewController.h */,
@@ -137,6 +140,12 @@
 				TargetAttributes = {
 					E4F273FF1D756F6C00DF7BC7 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8E534K4D8Z;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -164,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4F274131D756F6C00DF7BC7 /* LaunchScreen.storyboard in Resources */,
+				3AAECB861F61133F0096107A /* in.caf in Resources */,
 				E4F274101D756F6C00DF7BC7 /* Assets.xcassets in Resources */,
 				E4F2740E1D756F6C00DF7BC7 /* Main.storyboard in Resources */,
 			);
@@ -341,6 +351,7 @@
 			baseConfigurationReference = 38B55BB67AABB649A41176CF /* Pods-AsyncSocketDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8E534K4D8Z;
 				INFOPLIST_FILE = AsyncSocketDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.huaimayi.AsyncSocketDemo;
@@ -353,6 +364,7 @@
 			baseConfigurationReference = 9E5B73E11EFF6CBD6597FEAA /* Pods-AsyncSocketDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8E534K4D8Z;
 				INFOPLIST_FILE = AsyncSocketDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.huaimayi.AsyncSocketDemo;
